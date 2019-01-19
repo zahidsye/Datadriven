@@ -30,6 +30,7 @@ public void setup() {
 	driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 	driver.get("http://demo.automationtesting.in/SignIn.html");
 	//trying git commit
+	//remove commit
 }
 
 @DataProvider
