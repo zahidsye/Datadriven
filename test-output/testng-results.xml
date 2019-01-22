@@ -2,60 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22993" started-at="2019-01-20T00:30:03Z" finished-at="2019-01-20T00:30:26Z">
+  <suite name="Default suite" duration-ms="24685" started-at="2019-01-22T02:04:30Z" finished-at="2019-01-22T02:04:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22993" started-at="2019-01-20T00:30:03Z" finished-at="2019-01-20T00:30:26Z">
-      <class name="com.qa.questions.DataDriven">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.DataDriven@68c4039c]" name="setup" is-config="true" duration-ms="10793" started-at="2019-01-20T06:00:04Z" finished-at="2019-01-20T06:00:15Z">
+    <test name="Default test" duration-ms="24685" started-at="2019-01-22T02:04:30Z" finished-at="2019-01-22T02:04:54Z">
+      <class name="com.qa.questions.WebTableHandle">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.WebTableHandle@26653222]" name="setup" is-config="true" duration-ms="6305" started-at="2019-01-22T07:34:30Z" finished-at="2019-01-22T07:34:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="mytest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.questions.DataDriven@68c4039c]" name="mytest" duration-ms="700" started-at="2019-01-20T06:00:15Z" data-provider="getTestData" finished-at="2019-01-20T06:00:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[zahidsye@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Hello@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="dynamicwebelementMethod2()[pri:0, instance:com.qa.questions.WebTableHandle@26653222]" name="dynamicwebelementMethod2" duration-ms="2186" started-at="2019-01-22T07:34:36Z" finished-at="2019-01-22T07:34:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mytest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.DataDriven@68c4039c]" name="tearDown" is-config="true" duration-ms="1440" started-at="2019-01-20T06:00:15Z" finished-at="2019-01-20T06:00:17Z">
+        </test-method> <!-- dynamicwebelementMethod2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.WebTableHandle@26653222]" name="tearDown" is-config="true" duration-ms="452" started-at="2019-01-22T07:34:38Z" finished-at="2019-01-22T07:34:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.DataDriven@68c4039c]" name="setup" is-config="true" duration-ms="7819" started-at="2019-01-20T06:00:17Z" finished-at="2019-01-20T06:00:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.WebTableHandle@26653222]" name="setup" is-config="true" duration-ms="4187" started-at="2019-01-22T07:34:39Z" finished-at="2019-01-22T07:34:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="mytest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.questions.DataDriven@68c4039c]" name="mytest" duration-ms="579" started-at="2019-01-20T06:00:25Z" data-provider="getTestData" finished-at="2019-01-20T06:00:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[syed_hussain@hcl.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hhhjjj]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="webtable()[pri:0, instance:com.qa.questions.WebTableHandle@26653222]" name="webtable" duration-ms="9161" started-at="2019-01-22T07:34:43Z" finished-at="2019-01-22T07:34:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mytest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.DataDriven@68c4039c]" name="tearDown" is-config="true" duration-ms="286" started-at="2019-01-20T06:00:25Z" finished-at="2019-01-20T06:00:26Z">
+        </test-method> <!-- webtable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.WebTableHandle@26653222]" name="tearDown" is-config="true" duration-ms="2316" started-at="2019-01-22T07:34:52Z" finished-at="2019-01-22T07:34:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.questions.DataDriven -->
+      </class> <!-- com.qa.questions.WebTableHandle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
