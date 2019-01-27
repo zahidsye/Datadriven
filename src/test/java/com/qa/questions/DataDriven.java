@@ -36,7 +36,7 @@ public void setup() {
 public Iterator<Object[]> getTestData() {
 	
 	ArrayList<Object[]> myData = new ArrayList<Object[]>();
-	Xls_Reader reader = new Xls_Reader("C:\\Users\\Zahid\\eclipse-workspace\\InterQuesSel\\src\\test\\java\\com\\test\\LoginData.xlsx");
+	Xls_Reader reader = new Xls_Reader("C:\\Users\\Zahid\\eclipse-workspace\\InterQuesSel\\src\\test\\resources\\LoginData.xlsx");
 	int rowCount = reader.getRowCount("sheet1");
 	for(int i = 2;i<=rowCount;i++) {
 		String Email_Id = reader.getCellData("sheet1", "Email_ID", i);

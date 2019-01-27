@@ -1,11 +1,20 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Suite" parallel="false">
-  <test name="Test">
-    <classes>
+
+<listeners>
+	<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+</listeners>
+
+<test name="Test">
+  <classes>
       <class name="com.qa.questions.ActionsClass"/>
+      <class name="com.qa.questions.Asserttest"/>
+      <class name="com.qa.questions.DataDriven"/>
+      <class name="com.qa.questions.exceptions"/>
+      <class name="com.qa.questions.Log4jAPI"/>
       <class name="com.qa.questions.SelectClass"/>
       <class name="com.qa.questions.SwitchToWindow"/>
-       <class name="com.qa.questions.Asserttest"/>
+      <class name="com.qa.questions.WebTableHandle"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

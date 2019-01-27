@@ -3,12 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.questions.WenTableHandle">
+      <class name="com.qa.questions.WebTableHandle">
         <methods>
-          <include name="setup"/>
           <include name="webtable"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.qa.questions.WenTableHandle -->
+      </class> <!-- com.qa.questions.WebTableHandle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

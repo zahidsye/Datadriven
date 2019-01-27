@@ -31,8 +31,7 @@ public static void MouseHover () {
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  Actions act = new Actions(driver); 
 	  act.moveToElement(driver.findElement(By.xpath("//span[contains(text(),'Selenium Tutorial')]"))).build().perform();
-	  driver.findElement(By.xpath("//a[contains(text(),'Selenium WebDriver')]")).
-	  click();
+	  driver.findElement(By.xpath("//a[contains(text(),'Selenium WebDriver')]")).click();
 }
 
 @Test

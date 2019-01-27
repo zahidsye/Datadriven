@@ -31,7 +31,7 @@ public void webtable() {
 	String beforeXpath_Hed1 = "//*[@id=\"myTable\"]/tr[";
 	String afterXpath_Hed1 = "]/td[2]";
 
-	Xls_Reader reader = new Xls_Reader("C:\\Users\\Zahid\\eclipse-workspace\\InterQuesSel\\src\\test\\java\\com\\test\\LoginData.xlsx");
+	Xls_Reader reader = new Xls_Reader("/Users/Zahid/eclipse-workspace/InterQuesSel/src/test/resources/LoginData.xlsx");
 	if(!reader.isSheetExist("outPut")) {
 		reader.addSheet("outPut");
 		reader.addColumn("outPut", "#");
