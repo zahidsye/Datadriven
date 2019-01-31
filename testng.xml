@@ -11,6 +11,7 @@
       <class name="com.qa.questions.Asserttest"/>
       <class name="com.qa.questions.DataDriven"/>
       <class name="com.qa.questions.exceptions"/>
+      <class name="com.qa.questions.JavaScriptExecutor"/>
       <class name="com.qa.questions.Log4jAPI"/>
       <class name="com.qa.questions.SelectClass"/>
       <class name="com.qa.questions.SwitchToWindow"/>

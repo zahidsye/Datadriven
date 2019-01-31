@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [Default suite]" duration-ms="16244" started-at="2019-01-27T09:53:43Z" finished-at="2019-01-27T09:53:59Z">
+  <suite name="Default suite" duration-ms="68578" started-at="2019-01-29T03:05:51Z" finished-at="2019-01-29T03:06:59Z">
     <groups>
     </groups>
-    <test name="Default test(failed)" duration-ms="16244" started-at="2019-01-27T09:53:43Z" finished-at="2019-01-27T09:53:59Z">
-      <class name="com.qa.questions.WebTableHandle">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.WebTableHandle@685cb137]" name="setup" is-config="true" duration-ms="6089" started-at="2019-01-27T15:23:43Z" finished-at="2019-01-27T15:23:49Z">
+    <test name="Default test" duration-ms="68578" started-at="2019-01-29T03:05:51Z" finished-at="2019-01-29T03:06:59Z">
+      <class name="com.qa.questions.JavaScriptExecutor">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.JavaScriptExecutor@5c3bd550]" name="LaunchBrowser" is-config="true" duration-ms="26430" started-at="2019-01-29T08:35:51Z" finished-at="2019-01-29T08:36:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="webtable()[pri:0, instance:com.qa.questions.WebTableHandle@685cb137]" name="webtable" duration-ms="7500" started-at="2019-01-27T15:23:49Z" finished-at="2019-01-27T15:23:57Z">
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="scrolldowntoelement()[pri:1, instance:com.qa.questions.JavaScriptExecutor@5c3bd550]" name="scrolldowntoelement" duration-ms="238" started-at="2019-01-29T08:36:17Z" finished-at="2019-01-29T08:36:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webtable -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.WebTableHandle@685cb137]" name="tearDown" is-config="true" duration-ms="2578" started-at="2019-01-27T15:23:57Z" finished-at="2019-01-27T15:23:59Z">
+        </test-method> <!-- scrolldowntoelement -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.JavaScriptExecutor@5c3bd550]" name="tearDown" is-config="true" duration-ms="2169" started-at="2019-01-29T08:36:18Z" finished-at="2019-01-29T08:36:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.questions.WebTableHandle -->
-    </test> <!-- Default test(failed) -->
-  </suite> <!-- Failed suite [Default suite] -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.JavaScriptExecutor@5c3bd550]" name="LaunchBrowser" is-config="true" duration-ms="13131" started-at="2019-01-29T08:36:20Z" finished-at="2019-01-29T08:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="scrolldown()[pri:2, instance:com.qa.questions.JavaScriptExecutor@5c3bd550]" name="scrolldown" duration-ms="6864" started-at="2019-01-29T08:36:33Z" finished-at="2019-01-29T08:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolldown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.JavaScriptExecutor@5c3bd550]" name="tearDown" is-config="true" duration-ms="4620" started-at="2019-01-29T08:36:40Z" finished-at="2019-01-29T08:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.JavaScriptExecutor@5c3bd550]" name="LaunchBrowser" is-config="true" duration-ms="12759" started-at="2019-01-29T08:36:44Z" finished-at="2019-01-29T08:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="scrollup()[pri:3, instance:com.qa.questions.JavaScriptExecutor@5c3bd550]" name="scrollup" duration-ms="80" started-at="2019-01-29T08:36:57Z" finished-at="2019-01-29T08:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.JavaScriptExecutor@5c3bd550]" name="tearDown" is-config="true" duration-ms="2188" started-at="2019-01-29T08:36:57Z" finished-at="2019-01-29T08:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.questions.JavaScriptExecutor -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
