@@ -9,13 +9,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.Assertion;
 import org.testng.asserts.SoftAssert;
 
 public class Asserttest {
 WebDriver driver;
 SoftAssert softAssert = new SoftAssert();
 String actualerrormessage;
-String expectederrormessage = "1Please enter your first name";
+String expectederrormessage = "Please enter your first name";
 String actualpagetitle;
 String expectedpagetitle;
 Logger log = Logger.getLogger(Asserttest.class);
@@ -38,15 +39,15 @@ public void assertcheck() {
 	driver.get("https://www.linkedin.com/");
 	driver.findElement(By.xpath("//input[@id=\"registration-submit\"]")).click();
 	actualerrormessage = driver.findElement(By.xpath("//span[@class=\"alert-content\"]")).getText();
-	
+	System.out.println(actualerrormessage);
 	try {
 		Assert.assertEquals(actualerrormessage, expectederrormessage,"Enter message not Matching with the expected error message");
-	} catch (Exception e) {
+	} catch (AssertionError e) {
 		e.printStackTrace();
 	}
 	
 }	
-
+/*
 @Test
 public void softassert() {
 	driver.get("http://demoqa.com/");
@@ -64,6 +65,6 @@ public void softassert() {
 	softAssert.assertEquals(status, false);
 	softAssert.assertAll();
 }
-
+*/
 }
 

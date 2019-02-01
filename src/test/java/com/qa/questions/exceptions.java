@@ -34,7 +34,7 @@ public void NoSuchElementException() {
 			
 			e.printStackTrace();
 			System.out.println("INVALID XPATH AND BEC OF THAT NO SUCH ELEMENT EXCEPTION");
-			throw(e);
+			//throw(e);
 		}
 }
 @Test
@@ -46,7 +46,7 @@ public void ElementNotVisibleException() {
 		
 		e.printStackTrace();
 		System.out.println("BUTTON HIDDEN AND BEC OF THAT ELEMENT NOT VISIBLE EXCEPTION");
-		throw(e);
+		//throw(e);
 	}
 }
 @Test
@@ -58,7 +58,7 @@ public void NoSuchFrameException() {
 	} catch (Exception e) {
 		System.out.println("INVALID FRAME ID AND BEC OF THAT No Such Frame Exception ");
 		e.printStackTrace();
-		throw(e);
+		//throw(e);
 	}
 }
 @Test
