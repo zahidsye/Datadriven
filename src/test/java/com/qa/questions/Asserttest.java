@@ -48,7 +48,6 @@ public void assertcheck() {
 	
 }	
 /*
- * 
 @Test
 public void softassert() {
 	driver.get("http://demoqa.com/");
