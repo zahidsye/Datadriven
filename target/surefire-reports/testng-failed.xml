@@ -6,21 +6,13 @@
   </listeners>
   <test verbose="0" name="Test(failed)">
     <classes>
-      <class name="com.qa.questions.SwitchToWindow">
+      <class name="com.qa.questions.WebTableHandle">
         <methods>
-          <include name="BrowserPopUp"/>
-          <include name="LaunchBrowser"/>
+          <include name="webtable"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.qa.questions.SwitchToWindow -->
-      <class name="com.qa.questions.exceptions">
-        <methods>
-          <include name="LaunchBrowser"/>
-          <include name="NoSuchElementException"/>
-          <include name="ElementNotVisibleException"/>
-          <include name="CloseBrowser"/>
-          <include name="NoSuchFrameException"/>
-        </methods>
-      </class> <!-- com.qa.questions.exceptions -->
+      </class> <!-- com.qa.questions.WebTableHandle -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

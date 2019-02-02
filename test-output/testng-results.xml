@@ -1,211 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+<testng-results skipped="0" failed="0" ignored="0" total="23" passed="23">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="503397" started-at="2019-02-01T00:46:08Z" finished-at="2019-02-01T00:54:31Z">
+  <suite name="Suite" duration-ms="357023" started-at="2019-02-02T19:15:35Z" finished-at="2019-02-02T19:21:32Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="503397" started-at="2019-02-01T00:46:08Z" finished-at="2019-02-01T00:54:31Z">
+    <test name="Test" duration-ms="357023" started-at="2019-02-02T19:15:35Z" finished-at="2019-02-02T19:21:32Z">
       <class name="com.qa.questions.ActionsClass">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.ActionsClass@3a5ed7a6]" name="LaunchBrowser" is-config="true" duration-ms="7802" started-at="2019-02-01T06:16:08Z" finished-at="2019-02-01T06:16:16Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.ActionsClass@7fac631b]" name="LaunchBrowser" is-config="true" duration-ms="5677" started-at="2019-02-03T00:45:35Z" finished-at="2019-02-03T00:45:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="DragAndDrop()[pri:0, instance:com.qa.questions.ActionsClass@3a5ed7a6]" name="DragAndDrop" duration-ms="2483" started-at="2019-02-01T06:16:16Z" finished-at="2019-02-01T06:16:18Z">
+        <test-method status="PASS" signature="DragAndDrop()[pri:0, instance:com.qa.questions.ActionsClass@7fac631b]" name="DragAndDrop" duration-ms="3489" started-at="2019-02-03T00:45:41Z" finished-at="2019-02-03T00:45:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DragAndDrop -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.ActionsClass@3a5ed7a6]" name="CloseBrowser" is-config="true" duration-ms="2199" started-at="2019-02-01T06:16:18Z" finished-at="2019-02-01T06:16:21Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.ActionsClass@7fac631b]" name="CloseBrowser" is-config="true" duration-ms="183" started-at="2019-02-03T00:45:44Z" finished-at="2019-02-03T00:45:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.ActionsClass@3a5ed7a6]" name="LaunchBrowser" is-config="true" duration-ms="4248" started-at="2019-02-01T06:16:21Z" finished-at="2019-02-01T06:16:25Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.ActionsClass@7fac631b]" name="LaunchBrowser" is-config="true" duration-ms="3829" started-at="2019-02-03T00:45:44Z" finished-at="2019-02-03T00:45:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="MouseHover()[pri:0, instance:com.qa.questions.ActionsClass@3a5ed7a6]" name="MouseHover" duration-ms="29450" started-at="2019-02-01T06:16:25Z" finished-at="2019-02-01T06:16:54Z">
+        <test-method status="PASS" signature="MouseHover()[pri:0, instance:com.qa.questions.ActionsClass@7fac631b]" name="MouseHover" duration-ms="16570" started-at="2019-02-03T00:45:48Z" finished-at="2019-02-03T00:46:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MouseHover -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.ActionsClass@3a5ed7a6]" name="CloseBrowser" is-config="true" duration-ms="2442" started-at="2019-02-01T06:16:54Z" finished-at="2019-02-01T06:16:57Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.ActionsClass@7fac631b]" name="CloseBrowser" is-config="true" duration-ms="2069" started-at="2019-02-03T00:46:05Z" finished-at="2019-02-03T00:46:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- com.qa.questions.ActionsClass -->
-      <class name="com.qa.questions.SelectClass">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.SelectClass@4f970963]" name="LaunchBrowser" is-config="true" duration-ms="7998" started-at="2019-02-01T06:22:08Z" finished-at="2019-02-01T06:22:16Z">
+      <class name="com.qa.questions.zahid">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.zahid@610694f1]" name="LaunchBrowser" is-config="true" duration-ms="25992" started-at="2019-02-03T00:50:21Z" finished-at="2019-02-03T00:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="DropDown()[pri:0, instance:com.qa.questions.SelectClass@4f970963]" name="DropDown" duration-ms="9550" started-at="2019-02-01T06:22:16Z" finished-at="2019-02-01T06:22:26Z">
+        <test-method status="PASS" signature="scrolldowntoelement()[pri:1, instance:com.qa.questions.zahid@610694f1]" name="scrolldowntoelement" duration-ms="12968" started-at="2019-02-03T00:50:47Z" finished-at="2019-02-03T00:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolldowntoelement -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.zahid@610694f1]" name="tearDown" is-config="true" duration-ms="2175" started-at="2019-02-03T00:51:00Z" finished-at="2019-02-03T00:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.zahid@610694f1]" name="LaunchBrowser" is-config="true" duration-ms="11533" started-at="2019-02-03T00:51:02Z" finished-at="2019-02-03T00:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="scrolldown()[pri:2, instance:com.qa.questions.zahid@610694f1]" name="scrolldown" duration-ms="949" started-at="2019-02-03T00:51:13Z" finished-at="2019-02-03T00:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolldown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.zahid@610694f1]" name="tearDown" is-config="true" duration-ms="2621" started-at="2019-02-03T00:51:14Z" finished-at="2019-02-03T00:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.zahid@610694f1]" name="LaunchBrowser" is-config="true" duration-ms="12682" started-at="2019-02-03T00:51:17Z" finished-at="2019-02-03T00:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="scrollup()[pri:3, instance:com.qa.questions.zahid@610694f1]" name="scrollup" duration-ms="53" started-at="2019-02-03T00:51:30Z" finished-at="2019-02-03T00:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.zahid@610694f1]" name="tearDown" is-config="true" duration-ms="2198" started-at="2019-02-03T00:51:30Z" finished-at="2019-02-03T00:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.questions.zahid -->
+      <class name="com.qa.questions.SelectClass">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.SelectClass@3dd4520b]" name="LaunchBrowser" is-config="true" duration-ms="5238" started-at="2019-02-03T00:49:37Z" finished-at="2019-02-03T00:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="DropDown()[pri:0, instance:com.qa.questions.SelectClass@3dd4520b]" name="DropDown" duration-ms="6444" started-at="2019-02-03T00:49:42Z" finished-at="2019-02-03T00:49:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DropDown -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.SelectClass@4f970963]" name="CloseBrowser" is-config="true" duration-ms="177" started-at="2019-02-01T06:22:26Z" finished-at="2019-02-01T06:22:26Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.SelectClass@3dd4520b]" name="CloseBrowser" is-config="true" duration-ms="113" started-at="2019-02-03T00:49:49Z" finished-at="2019-02-03T00:49:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.SelectClass@4f970963]" name="LaunchBrowser" is-config="true" duration-ms="5034" started-at="2019-02-01T06:22:26Z" finished-at="2019-02-01T06:22:31Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.SelectClass@3dd4520b]" name="LaunchBrowser" is-config="true" duration-ms="3966" started-at="2019-02-03T00:49:49Z" finished-at="2019-02-03T00:49:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="MultipleDropDown()[pri:0, instance:com.qa.questions.SelectClass@4f970963]" name="MultipleDropDown" duration-ms="8983" started-at="2019-02-01T06:22:31Z" finished-at="2019-02-01T06:22:40Z">
+        <test-method status="PASS" signature="MultipleDropDown()[pri:0, instance:com.qa.questions.SelectClass@3dd4520b]" name="MultipleDropDown" duration-ms="6500" started-at="2019-02-03T00:49:53Z" finished-at="2019-02-03T00:49:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MultipleDropDown -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.SelectClass@4f970963]" name="CloseBrowser" is-config="true" duration-ms="2548" started-at="2019-02-01T06:22:40Z" finished-at="2019-02-01T06:22:42Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.SelectClass@3dd4520b]" name="CloseBrowser" is-config="true" duration-ms="2169" started-at="2019-02-03T00:49:59Z" finished-at="2019-02-03T00:50:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- com.qa.questions.SelectClass -->
       <class name="com.qa.questions.Asserttest">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.Asserttest@6325a3ee]" name="LaunchBrowser" is-config="true" duration-ms="7731" started-at="2019-02-01T06:16:57Z" finished-at="2019-02-01T06:17:04Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.Asserttest@5b87ed94]" name="LaunchBrowser" is-config="true" duration-ms="4215" started-at="2019-02-03T00:46:07Z" finished-at="2019-02-03T00:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="assertcheck()[pri:0, instance:com.qa.questions.Asserttest@6325a3ee]" name="assertcheck" duration-ms="7485" started-at="2019-02-01T06:17:04Z" finished-at="2019-02-01T06:17:12Z">
+        <test-method status="PASS" signature="assertcheck()[pri:0, instance:com.qa.questions.Asserttest@5b87ed94]" name="assertcheck" duration-ms="4925" started-at="2019-02-03T00:46:11Z" finished-at="2019-02-03T00:46:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertcheck -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.questions.Asserttest@6325a3ee]" name="closeBrowser" is-config="true" duration-ms="2836" started-at="2019-02-01T06:17:12Z" finished-at="2019-02-01T06:17:15Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.questions.Asserttest@5b87ed94]" name="closeBrowser" is-config="true" duration-ms="2158" started-at="2019-02-03T00:46:16Z" finished-at="2019-02-03T00:46:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.qa.questions.Asserttest -->
       <class name="com.qa.questions.exceptions">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="LaunchBrowser" is-config="true" duration-ms="5234" started-at="2019-02-01T06:18:01Z" finished-at="2019-02-01T06:18:06Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="LaunchBrowser" is-config="true" duration-ms="3975" started-at="2019-02-03T00:46:39Z" finished-at="2019-02-03T00:46:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="ElementNotVisibleException()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="ElementNotVisibleException" duration-ms="34072" started-at="2019-02-01T06:18:06Z" finished-at="2019-02-01T06:18:40Z">
+        <test-method status="PASS" signature="ElementNotVisibleException()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="ElementNotVisibleException" duration-ms="15969" started-at="2019-02-03T00:46:43Z" finished-at="2019-02-03T00:46:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ElementNotVisibleException -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="CloseBrowser" is-config="true" duration-ms="7111" started-at="2019-02-01T06:18:40Z" finished-at="2019-02-01T06:18:47Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="CloseBrowser" is-config="true" duration-ms="508" started-at="2019-02-03T00:46:59Z" finished-at="2019-02-03T00:46:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="LaunchBrowser" is-config="true" duration-ms="8726" started-at="2019-02-01T06:18:47Z" finished-at="2019-02-01T06:18:56Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="LaunchBrowser" is-config="true" duration-ms="3857" started-at="2019-02-03T00:46:59Z" finished-at="2019-02-03T00:47:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="NoSuchElementException()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="NoSuchElementException" duration-ms="19639" started-at="2019-02-01T06:18:56Z" finished-at="2019-02-01T06:19:15Z">
+        <test-method status="PASS" signature="NoSuchElementException()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="NoSuchElementException" duration-ms="16652" started-at="2019-02-03T00:47:03Z" finished-at="2019-02-03T00:47:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NoSuchElementException -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="CloseBrowser" is-config="true" duration-ms="4152" started-at="2019-02-01T06:19:15Z" finished-at="2019-02-01T06:19:20Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="CloseBrowser" is-config="true" duration-ms="2419" started-at="2019-02-03T00:47:20Z" finished-at="2019-02-03T00:47:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="LaunchBrowser" is-config="true" duration-ms="4656" started-at="2019-02-01T06:19:20Z" finished-at="2019-02-01T06:19:24Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="LaunchBrowser" is-config="true" duration-ms="3952" started-at="2019-02-03T00:47:22Z" finished-at="2019-02-03T00:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="NoSuchFrameException()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="NoSuchFrameException" duration-ms="50832" started-at="2019-02-01T06:19:24Z" finished-at="2019-02-01T06:20:15Z">
+        <test-method status="PASS" signature="NoSuchFrameException()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="NoSuchFrameException" duration-ms="26635" started-at="2019-02-03T00:47:26Z" finished-at="2019-02-03T00:47:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NoSuchFrameException -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="CloseBrowser" is-config="true" duration-ms="2808" started-at="2019-02-01T06:20:15Z" finished-at="2019-02-01T06:20:18Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="CloseBrowser" is-config="true" duration-ms="2140" started-at="2019-02-03T00:47:53Z" finished-at="2019-02-03T00:47:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="LaunchBrowser" is-config="true" duration-ms="8689" started-at="2019-02-01T06:20:18Z" finished-at="2019-02-01T06:20:27Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="LaunchBrowser" is-config="true" duration-ms="4413" started-at="2019-02-03T00:47:55Z" finished-at="2019-02-03T00:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="StaleElementRefereneException()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="StaleElementRefereneException" duration-ms="84744" started-at="2019-02-01T06:20:27Z" finished-at="2019-02-01T06:21:51Z">
+        <test-method status="PASS" signature="StaleElementRefereneException()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="StaleElementRefereneException" duration-ms="21444" started-at="2019-02-03T00:47:59Z" finished-at="2019-02-03T00:48:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StaleElementRefereneException -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.exceptions@67b92f0a]" name="CloseBrowser" is-config="true" duration-ms="2605" started-at="2019-02-01T06:21:51Z" finished-at="2019-02-01T06:21:54Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.questions.exceptions@5bc79255]" name="CloseBrowser" is-config="true" duration-ms="192" started-at="2019-02-03T00:48:21Z" finished-at="2019-02-03T00:48:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- com.qa.questions.exceptions -->
       <class name="com.qa.questions.WebTableHandle">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.WebTableHandle@7b49cea0]" name="setup" is-config="true" duration-ms="7208" started-at="2019-02-01T06:24:07Z" finished-at="2019-02-01T06:24:14Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.WebTableHandle@5ae63ade]" name="setup" is-config="true" duration-ms="4017" started-at="2019-02-03T00:50:02Z" finished-at="2019-02-03T00:50:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="dynamicwebelementMethod2()[pri:0, instance:com.qa.questions.WebTableHandle@7b49cea0]" name="dynamicwebelementMethod2" duration-ms="2671" started-at="2019-02-01T06:24:14Z" finished-at="2019-02-01T06:24:16Z">
+        <test-method status="PASS" signature="dynamicwebelementMethod2()[pri:0, instance:com.qa.questions.WebTableHandle@5ae63ade]" name="dynamicwebelementMethod2" duration-ms="2825" started-at="2019-02-03T00:50:06Z" finished-at="2019-02-03T00:50:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dynamicwebelementMethod2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.WebTableHandle@7b49cea0]" name="tearDown" is-config="true" duration-ms="2221" started-at="2019-02-01T06:24:16Z" finished-at="2019-02-01T06:24:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.WebTableHandle@5ae63ade]" name="tearDown" is-config="true" duration-ms="2386" started-at="2019-02-03T00:50:08Z" finished-at="2019-02-03T00:50:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.WebTableHandle@7b49cea0]" name="setup" is-config="true" duration-ms="4084" started-at="2019-02-01T06:24:19Z" finished-at="2019-02-01T06:24:23Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.WebTableHandle@5ae63ade]" name="setup" is-config="true" duration-ms="4012" started-at="2019-02-03T00:50:11Z" finished-at="2019-02-03T00:50:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="webtable()[pri:0, instance:com.qa.questions.WebTableHandle@7b49cea0]" name="webtable" duration-ms="8475" started-at="2019-02-01T06:24:23Z" finished-at="2019-02-01T06:24:31Z">
+        <test-method status="PASS" signature="webtable()[pri:0, instance:com.qa.questions.WebTableHandle@5ae63ade]" name="webtable" duration-ms="5540" started-at="2019-02-03T00:50:15Z" finished-at="2019-02-03T00:50:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webtable -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.WebTableHandle@7b49cea0]" name="tearDown" is-config="true" duration-ms="100" started-at="2019-02-01T06:24:31Z" finished-at="2019-02-01T06:24:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.WebTableHandle@5ae63ade]" name="tearDown" is-config="true" duration-ms="330" started-at="2019-02-03T00:50:20Z" finished-at="2019-02-03T00:50:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.questions.WebTableHandle -->
       <class name="com.qa.questions.Log4jAPI">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.Log4jAPI@65e2dbf3]" name="LaunchBrowser" duration-ms="10489" started-at="2019-02-01T06:21:54Z" finished-at="2019-02-01T06:22:05Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.Log4jAPI@47ef968d]" name="LaunchBrowser" duration-ms="4271" started-at="2019-02-03T00:48:21Z" finished-at="2019-02-03T00:48:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.questions.Log4jAPI@65e2dbf3]" name="TearDown" duration-ms="3476" started-at="2019-02-01T06:22:05Z" finished-at="2019-02-01T06:22:08Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.questions.Log4jAPI@47ef968d]" name="TearDown" duration-ms="215" started-at="2019-02-03T00:48:25Z" finished-at="2019-02-03T00:48:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.qa.questions.Log4jAPI -->
-      <class name="com.qa.questions.SwitchToWindow">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.SwitchToWindow@61f8bee4]" name="LaunchBrowser" is-config="true" duration-ms="5602" started-at="2019-02-01T06:22:42Z" finished-at="2019-02-01T06:22:48Z">
+      <class name="com.qa.questions.MultipleWindows">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.MultipleWindows@23e028a9]" name="LaunchBrowser" is-config="true" duration-ms="3756" started-at="2019-02-03T00:48:25Z" finished-at="2019-02-03T00:48:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="BrowserPopUp()[pri:0, instance:com.qa.questions.SwitchToWindow@61f8bee4]" name="BrowserPopUp" duration-ms="7867" started-at="2019-02-01T06:22:48Z" finished-at="2019-02-01T06:22:56Z">
+        <test-method status="PASS" signature="BrowserPopUp()[pri:0, instance:com.qa.questions.MultipleWindows@23e028a9]" name="BrowserPopUp" duration-ms="9719" started-at="2019-02-03T00:48:29Z" finished-at="2019-02-03T00:48:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserPopUp -->
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.SwitchToWindow@61f8bee4]" name="LaunchBrowser" is-config="true" duration-ms="4975" started-at="2019-02-01T06:22:56Z" finished-at="2019-02-01T06:23:01Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.MultipleWindows@23e028a9]" name="LaunchBrowser" is-config="true" duration-ms="4167" started-at="2019-02-03T00:48:39Z" finished-at="2019-02-03T00:48:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="BrowserTab()[pri:0, instance:com.qa.questions.SwitchToWindow@61f8bee4]" name="BrowserTab" duration-ms="9583" started-at="2019-02-01T06:23:01Z" finished-at="2019-02-01T06:23:10Z">
+        <test-method status="PASS" signature="BrowserTab()[pri:0, instance:com.qa.questions.MultipleWindows@23e028a9]" name="BrowserTab" duration-ms="16371" started-at="2019-02-03T00:48:43Z" finished-at="2019-02-03T00:48:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserTab -->
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.SwitchToWindow@61f8bee4]" name="LaunchBrowser" is-config="true" duration-ms="5140" started-at="2019-02-01T06:23:10Z" finished-at="2019-02-01T06:23:15Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.MultipleWindows@23e028a9]" name="LaunchBrowser" is-config="true" duration-ms="4029" started-at="2019-02-03T00:48:59Z" finished-at="2019-02-03T00:49:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="FileUploadWindow()[pri:0, instance:com.qa.questions.SwitchToWindow@61f8bee4]" name="FileUploadWindow" duration-ms="13668" started-at="2019-02-01T06:23:15Z" finished-at="2019-02-01T06:23:29Z">
+        <test-method status="PASS" signature="FileUploadWindow()[pri:0, instance:com.qa.questions.MultipleWindows@23e028a9]" name="FileUploadWindow" duration-ms="3211" started-at="2019-02-03T00:49:03Z" finished-at="2019-02-03T00:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FileUploadWindow -->
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.SwitchToWindow@61f8bee4]" name="LaunchBrowser" is-config="true" duration-ms="5738" started-at="2019-02-01T06:23:29Z" finished-at="2019-02-01T06:23:35Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.MultipleWindows@23e028a9]" name="LaunchBrowser" is-config="true" duration-ms="3967" started-at="2019-02-03T00:49:07Z" finished-at="2019-02-03T00:49:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="JavaAlert()[pri:0, instance:com.qa.questions.SwitchToWindow@61f8bee4]" name="JavaAlert" duration-ms="4633" started-at="2019-02-01T06:23:35Z" finished-at="2019-02-01T06:23:39Z">
+        <test-method status="PASS" signature="JavaAlert()[pri:0, instance:com.qa.questions.MultipleWindows@23e028a9]" name="JavaAlert" duration-ms="5808" started-at="2019-02-03T00:49:10Z" finished-at="2019-02-03T00:49:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- JavaAlert -->
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.SwitchToWindow@61f8bee4]" name="LaunchBrowser" is-config="true" duration-ms="4777" started-at="2019-02-01T06:23:40Z" finished-at="2019-02-01T06:23:44Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.questions.MultipleWindows@23e028a9]" name="LaunchBrowser" is-config="true" duration-ms="3881" started-at="2019-02-03T00:49:16Z" finished-at="2019-02-03T00:49:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="frames()[pri:0, instance:com.qa.questions.SwitchToWindow@61f8bee4]" name="frames" duration-ms="22276" started-at="2019-02-01T06:23:44Z" finished-at="2019-02-01T06:24:07Z">
+        <test-method status="PASS" signature="frames()[pri:0, instance:com.qa.questions.MultipleWindows@23e028a9]" name="frames" duration-ms="16915" started-at="2019-02-03T00:49:20Z" finished-at="2019-02-03T00:49:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- frames -->
-      </class> <!-- com.qa.questions.SwitchToWindow -->
+      </class> <!-- com.qa.questions.MultipleWindows -->
       <class name="com.qa.questions.DataDriven">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.DataDriven@1d16f93d]" name="setup" is-config="true" duration-ms="13403" started-at="2019-02-01T06:17:19Z" finished-at="2019-02-01T06:17:32Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.DataDriven@6e0e048a]" name="setup" is-config="true" duration-ms="9510" started-at="2019-02-03T00:46:20Z" finished-at="2019-02-03T00:46:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="mytest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.questions.DataDriven@1d16f93d]" name="mytest" duration-ms="4689" started-at="2019-02-01T06:17:32Z" data-provider="getTestData" finished-at="2019-02-01T06:17:37Z">
+        <test-method status="PASS" signature="mytest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.questions.DataDriven@6e0e048a]" name="mytest" duration-ms="735" started-at="2019-02-03T00:46:29Z" data-provider="getTestData" finished-at="2019-02-03T00:46:30Z">
           <params>
             <param index="0">
               <value>
@@ -221,15 +259,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mytest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.DataDriven@1d16f93d]" name="tearDown" is-config="true" duration-ms="931" started-at="2019-02-01T06:17:37Z" finished-at="2019-02-01T06:17:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.DataDriven@6e0e048a]" name="tearDown" is-config="true" duration-ms="382" started-at="2019-02-03T00:46:30Z" finished-at="2019-02-03T00:46:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.DataDriven@1d16f93d]" name="setup" is-config="true" duration-ms="13815" started-at="2019-02-01T06:17:38Z" finished-at="2019-02-01T06:17:52Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.questions.DataDriven@6e0e048a]" name="setup" is-config="true" duration-ms="7456" started-at="2019-02-03T00:46:30Z" finished-at="2019-02-03T00:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="mytest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.questions.DataDriven@1d16f93d]" name="mytest" duration-ms="3386" started-at="2019-02-01T06:17:52Z" data-provider="getTestData" finished-at="2019-02-01T06:17:55Z">
+        <test-method status="PASS" signature="mytest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.questions.DataDriven@6e0e048a]" name="mytest" duration-ms="557" started-at="2019-02-03T00:46:38Z" data-provider="getTestData" finished-at="2019-02-03T00:46:38Z">
           <params>
             <param index="0">
               <value>
@@ -245,7 +283,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mytest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.DataDriven@1d16f93d]" name="tearDown" is-config="true" duration-ms="5662" started-at="2019-02-01T06:17:55Z" finished-at="2019-02-01T06:18:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.questions.DataDriven@6e0e048a]" name="tearDown" is-config="true" duration-ms="359" started-at="2019-02-03T00:46:38Z" finished-at="2019-02-03T00:46:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class SwitchToWindow {
+public class MultipleWindows {
 public static WebDriver driver;
 
 @BeforeMethod
@@ -23,19 +23,24 @@ public static void LaunchBrowser() {
 }
 
 @Test
-public static void JavaAlert () {
+public static void JavaAlert () throws InterruptedException {
 	driver.get("https://www.toolsqa.com/automation-practice-switch-windows/");
 	driver.findElement(By.cssSelector("#alert")).click(); 
-	Alert alert = driver.switchTo().alert(); System.out.println(alert.getText()); 
+	Thread.sleep(2000);
+	Alert alert = driver.switchTo().alert(); 
+	System.out.println(alert.getText()); 
 	String alertText = alert.getText();
-	if(alertText.equals("Knowledge increases by sharing but not by saving. Please share this website with your friends and in your organization.")) {
-	  System.out.println("Test Passed"); alert.accept(); 
+	if(alertText.equals("Knowledge increases by sharing but not by saving. Please share this website with your friends and in your organization.")) 
+	{
+	  System.out.println("Test Passed");
+	  alert.accept(); 
 	  } 
 	else {
 	  System.out.println("Test Failed"); 
 	  }
 	driver.close();
 	}
+
 @Test
 public static void FileUploadWindow() {
 	driver.get("https://www.toolsqa.com/automation-practice-form/");
@@ -83,4 +88,5 @@ public static void frames() {
 	driver.close();
 	
 }
+
 }

@@ -1,9 +1,0 @@
-com\qa\questions\SwitchToWindow.class
-com\qa\questions\ActionsClass.class
-com\qa\questions\SelectClass.class
-com\qa\questions\DataDriven.class
-com\qa\questions\JavaScriptExecutor.class
-com\qa\ExtentReportListener\ExtentReporterNG.class
-com\excel\utility\Xls_Reader.class
-com\qa\questions\WebTableHandle.class
-com\qa\questions\Log4jAPI.class
