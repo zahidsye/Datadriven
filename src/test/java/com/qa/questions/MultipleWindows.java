@@ -6,7 +6,10 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -20,12 +23,16 @@ public static void LaunchBrowser() {
 	driver.manage().deleteAllCookies();
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 }
 
 @Test
 public static void JavaAlert () throws InterruptedException {
 	driver.get("https://www.toolsqa.com/automation-practice-switch-windows/");
-	driver.findElement(By.cssSelector("#alert")).click(); 
+	WebDriverWait wait = new WebDriverWait(driver, 30);
+	WebElement ele = driver.findElement(By.cssSelector("#alert"));
+	wait.until(ExpectedConditions.elementToBeClickable(ele));
+	ele.click();	 
 	Thread.sleep(2000);
 	Alert alert = driver.switchTo().alert(); 
 	System.out.println(alert.getText()); 
@@ -51,7 +58,10 @@ public static void FileUploadWindow() {
 @Test
 public static void BrowserPopUp() {
 	driver.get("https://www.toolsqa.com/automation-practice-switch-windows/");
-	driver.findElement(By.xpath("//button[@id=\"button1\"]")).click();
+	WebDriverWait wait = new WebDriverWait(driver, 30);
+	WebElement ele= driver.findElement(By.xpath("//button[@id=\"button1\"]"));
+	wait.until(ExpectedConditions.elementToBeClickable(ele));
+	ele.click();
 	Set <String> handler= driver.getWindowHandles();
 	Iterator <String> it = handler.iterator();
 	String ParentWindowId = it.next();
@@ -67,7 +77,10 @@ public static void BrowserPopUp() {
 @Test
 public static void BrowserTab() {
 	driver.get("https://www.toolsqa.com/automation-practice-switch-windows/");
-	driver.findElement(By.cssSelector("#content > p:nth-child(6) > button")).click();
+	WebDriverWait wait = new WebDriverWait(driver, 30);
+	WebElement ele = driver.findElement(By.cssSelector("#content > p:nth-child(6) > button"));
+	wait.until(ExpectedConditions.elementToBeClickable(ele));
+	ele.click();
 	Set <String> handler = driver.getWindowHandles();
 	Iterator <String> it = handler.iterator();
 	String ParentWindowId = it.next();
@@ -81,8 +94,9 @@ public static void BrowserTab() {
 }
 
 @Test
-public static void frames() {
+public static void frames() throws InterruptedException {
 	driver.get("https://www.toolsqa.com/iframe-practice-page/");
+	Thread.sleep(2000);
 	driver.switchTo().frame("iframe1");
 	driver.findElement(By.name("firstname")).sendKeys("Hello");
 	driver.close();

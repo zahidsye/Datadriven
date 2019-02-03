@@ -6,13 +6,12 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.qa.questions.DataDriven">
+      <class name="com.qa.questions.MultipleWindows">
         <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="mytest"/>
+          <include name="JavaAlert"/>
+          <include name="LaunchBrowser"/>
         </methods>
-      </class> <!-- com.qa.questions.DataDriven -->
+      </class> <!-- com.qa.questions.MultipleWindows -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
